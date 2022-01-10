@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: #000;
+    width: 100vw;
+    height: 10vh;
+}
+.header .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .nav-bar .logo {
+    display: flex;
+}
+.header .nav-bar .logo h3{
+   color: #4fb6db;
+   padding-top: 0.8rem;
+   font-size: 2rem;
+}
+.header .nav-bar .nav-bar-items ul{
+    display: flex;
+}
+.header .nav-bar .nav-bar-items ul li {
+    list-style: none;
+    padding: 1rem 1rem 0 2rem;
+}
+.header .nav-bar .nav-bar-items ul li a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
+    font-size: 1.2rem;
+}
+
+/*---------------------------------Title bar-------------------------------------------------*/
+
+.title-bar {
+    width: 100vw;
+    margin-top: 5rem;
+}
+.title-bar .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title-bar .title h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------------Image Box---------------------------------------------------------*/
+.img-box {
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 35% 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-box .foundation-col { 
+    
+    height: 70vh;
+    background: #000;
+    border-radius: 20px;
+}
+.img-box .foundation-col h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin: 6rem 1rem 0 3rem;
+}
+.img-box .foundation-col h1 span {
+    color: #4fb6db;
+}
+.img-box .journey-col {
+    background-image: linear-gradient(rgba(0,0,0, 0.2),rgba(0,0,0, 0.5)), url(./ImageBox/journey-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin-top: 10rem;
+    margin-left: -4rem;
+    border-radius: 20px;
+}
+.img-box .journey-col p {
+    margin: 10rem 2rem 0 4rem;
+    color: #fff;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/*-----------------------------------Testimonials-------------------------------------------------*/
+.grid-box {
+    background: rgb(245, 235, 235);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 2rem;
+}
+.grid-box h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2.5rem 0;
+    font-size: 3rem;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-col {
+    height: 50vh;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-col p {
+    padding: 4rem 2rem 0;
+    color: rgb(204, 194, 194);
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.grid-box .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.grid-box .btn .read-btn {
+    color: #fff;
+    background: #000;
+    padding: 0.8rem 1.5rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+/*-------------------------------Business Para-----------------------------------*/
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.clients .our-client {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.clients .our-client h1 {
+    font-size: 2.7rem;
+    padding: 2rem;
+}
+.clients .our-client .read-btn {
+    color: #fff;
+    background: #000;
+    padding: 0.8rem 1.5rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*-------------------------------footer-----------------------------------*/
+.footer {
+    background: #000;
+    margin-top: 5rem;
+    height: 100vh;
+    width: 100vw;
+}
+.footer .services {
+    padding: 4rem 0 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.footer .services table {
+    width: 70%;
+    color: #fff;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(197, 191, 191); 
+}
+.footer .services table th {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #4fb6db;
+    border-bottom: 1px solid rgb(197, 191, 191); 
+    text-align: justify;
+}
+.footer .services table tr, td {
+    padding: 1.1rem;
+    text-align: justify;
+}
+.footer .footer-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+.footer .footer-para h3 {
+    color: #4fb6db;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+}
+.footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-icons .fab {
+    color: rgb(197, 191, 191); 
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.footer .footer-address {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.footer .footer-address p {
+    color: rgb(170, 165, 165);
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
